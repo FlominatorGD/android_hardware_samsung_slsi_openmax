@@ -27,6 +27,7 @@ LOCAL_STATIC_LIBRARIES := libExynosOMX_Adec libExynosOMX_OSAL libExynosOMX_Basec
 	libsrpapi
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils libui liblog \
 	libExynosOMX_Resourcemanager libffmpegapi\
+LOCAL_HEADER_LIBRARIES := libcutils_headers
 
 LOCAL_C_INCLUDES := $(EXYNOS_OMX_INC)/khronos \
 	$(EXYNOS_OMX_INC)/exynos \

@@ -51,6 +51,7 @@ LOCAL_STATIC_LIBRARIES := libExynosOMX_Venc libExynosOMX_OSAL libExynosOMX_Basec
 	libExynosVideoApi
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils libui liblog \
 	libExynosOMX_Resourcemanager libcsc libexynosv4l2 libion libhardware
+LOCAL_HEADER_LIBRARIES := libcutils_headers
 
 LOCAL_C_INCLUDES := \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \

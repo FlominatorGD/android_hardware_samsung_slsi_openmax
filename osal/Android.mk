@@ -172,6 +172,7 @@ LOCAL_CFLAGS += -DUSE_MFC5X_ALIGNMENT
 endif
 
 LOCAL_SHARED_LIBRARIES := libion libhardware libnativewindow libui
+LOCAL_HEADER_LIBRARIES := libhardware_headers
 LOCAL_STATIC_LIBRARIES := liblog libcutils libExynosVideoApi
 
 LOCAL_C_INCLUDES := \

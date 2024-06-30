@@ -24,6 +24,7 @@ LOCAL_ARM_MODE := arm
 LOCAL_STATIC_LIBRARIES := libExynosOMX_OSAL libExynosOMX_Basecomponent
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils liblog \
 	libExynosOMX_Resourcemanager
+LOCAL_HEADER_LIBRARIES := libcutils_headers
 
 LOCAL_C_INCLUDES := \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \

@@ -26,6 +26,7 @@ LOCAL_STATIC_LIBRARIES := libExynosOMX_Adec libExynosOMX_OSAL libExynosOMX_Basec
 	libseirenhw
 LOCAL_SHARED_LIBRARIES := libc libdl libcutils libutils libui liblog \
 	libExynosOMX_Resourcemanager
+LOCAL_HEADER_LIBRARIES := libcutils_headers
 
 LOCAL_C_INCLUDES := \
 	$(EXYNOS_OMX_INC)/exynos \

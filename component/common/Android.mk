@@ -20,6 +20,7 @@ LOCAL_CFLAGS := \
 
 LOCAL_STATIC_LIBRARIES := libExynosOMX_OSAL
 LOCAL_SHARED_LIBRARIES := libcutils libutils liblog
+LOCAL_HEADER_LIBRARIES := libcutils_headers
 
 LOCAL_C_INCLUDES := \
 	$(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include \
