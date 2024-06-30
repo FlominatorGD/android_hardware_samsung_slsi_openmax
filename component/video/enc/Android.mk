@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
 	Exynos_OMX_Venc.c
 
 LOCAL_MODULE := libExynosOMX_Venc
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE_TAGS := optional
 

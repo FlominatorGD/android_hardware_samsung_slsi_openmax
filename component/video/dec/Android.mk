@@ -6,6 +6,7 @@ LOCAL_SRC_FILES := \
 	Exynos_OMX_Vdec.c
 
 LOCAL_MODULE := libExynosOMX_Vdec
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_ARM_MODE := arm
 LOCAL_MODULE_TAGS := optional
 
